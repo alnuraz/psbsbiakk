@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Monogram PSBS Biak dengan ombak Pasifik">
+<circle cx="80" cy="80" r="78" fill="#062C49" stroke="#8DE2F2" stroke-width="2"/>
+<path d="M80 18 128 38v48c0 26-24 43-48 56-24-13-48-30-48-56V38Z" fill="#07549A" stroke="#8DE2F2" stroke-width="2"/>
+<path d="M36 94q22-20 44 0t44 0v14q-22 20-44 0t-44 0Z" fill="#36B8DD"/>
+<path d="M41 117q20-14 39 0t39 0" fill="none" stroke="#8DE2F2" stroke-width="3"/>
+<text x="80" y="65" text-anchor="middle" fill="white" font-family="sans-serif" font-size="29" font-weight="900">PSBS</text>
+<text x="80" y="85" text-anchor="middle" fill="#8DE2F2" font-family="sans-serif" font-size="14" letter-spacing="5">BIAK</text>
+</svg>

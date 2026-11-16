@@ -1,0 +1,81 @@
+{
+  "version": "8",
+  "dialect": "postgres",
+  "id": "ac8af0f6-e96c-4bb9-a68d-b97ded76b88e",
+  "prevIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "ddl": [
+    {
+      "isRlsEnabled": false,
+      "name": "medical_records",
+      "entityType": "tables",
+      "schema": "public"
+    },
+    {
+      "type": "text",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "name": "workspace",
+      "entityType": "columns",
+      "schema": "public",
+      "table": "medical_records"
+    },
+    {
+      "type": "text",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "name": "collection",
+      "entityType": "columns",
+      "schema": "public",
+      "table": "medical_records"
+    },
+    {
+      "type": "text",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "name": "id",
+      "entityType": "columns",
+      "schema": "public",
+      "table": "medical_records"
+    },
+    {
+      "type": "jsonb",
+      "typeSchema": null,
+      "notNull": true,
+      "dimensions": 0,
+      "default": null,
+      "generated": null,
+      "identity": null,
+      "name": "data",
+      "entityType": "columns",
+      "schema": "public",
+      "table": "medical_records"
+    },
+    {
+      "columns": [
+        "workspace",
+        "collection",
+        "id"
+      ],
+      "nameExplicit": false,
+      "name": "medical_records_pkey",
+      "entityType": "pks",
+      "schema": "public",
+      "table": "medical_records"
+    }
+  ],
+  "renames": []
+}

@@ -1,0 +1,13 @@
+[build]
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+[server]
+  path = ["/api/*", "/_blob/*"]
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Cache-Control = "no-store"

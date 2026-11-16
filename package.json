@@ -1,0 +1,13 @@
+{
+  "name": "psbs-biak-medical",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "dependencies": {
+    "@netlify/blobs": "^10.0.0",
+    "@netlify/database": "latest",
+    "drizzle-orm": "beta"
+  },
+  "devDependencies": { "drizzle-kit": "beta" }
+}
